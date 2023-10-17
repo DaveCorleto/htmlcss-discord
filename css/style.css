@@ -1,6 +1,5 @@
 :root {
-    font-family: Whitney, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
-
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 body {
@@ -208,7 +207,7 @@ footer {
 
 .social {
     flex-basis: 25%;
-    background-color: rgb(243, 88, 114);
+    /* background-color: rgb(243, 88, 114); */
     height: 550px; 
     margin: 0;
 }
@@ -257,4 +256,37 @@ footer {
     height: 60%;
     align-items: center;
     justify-content: space-between;
+}
+
+/* Contenuto sezione social */
+
+.text-white {
+    color: white;
+
+}
+
+.social>h3 {
+    color: violet;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#italiano {
+    display: flex;
+    align-items: center;
+}
+#bandiera {
+    flex-basis: auto;
+    width: 30px;
+    padding-right: 5px;
+}
+
+.icons {
+    color: white;
+    display: flex;
+}
+
+i {
+    flex-basis: 10%;
+    padding-top: 30px;
 }
