@@ -15,34 +15,39 @@ header {
     min-height: 600px;
     padding-top: 25px;
     background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 nav {
     width: 80%;
     height: 50px;
-    background-color: limegreen;
     margin: auto;
     display: flex;
     box-sizing: border-box;
-    justify-content: space-between;   
+    justify-content: space-between;
+    /* align-items: center;   */
 }
 
 #logo {
     flex-basis: 20%;
-    align-self: flex-start;
+    /* align-self: auto; */
+
 }
 #link {
     flex-basis: 55%;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+    /* text-align: center; */
 }
 
 #login {
     flex-basis: 20%;
-    text-align: right;
+    /* text-align: right; */
 }
     
 #logo , #link, #login {
-    height: 100%;
+    /* height: 100%; */
     vertical-align: middle;
     line-height: 100%;
 }  
@@ -76,12 +81,38 @@ nav div {
     margin-top: 50px;
 }
 
-.prima-box {
+ /* Sezione il tuo posto e relativi contenuti  */
+
+.iltuoposto {
     flex-basis:50%;
-    background-color: pink;
     min-height: 350px;
     justify-content: center;
     margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h1, .text-white {
+    color: white;
+}
+
+.rounded-button {
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.back-white {
+    background-color: white;
+    color: black;
+}
+
+.back-black {
+    color: white;
+    background-color: black;
 }
 
 main {
