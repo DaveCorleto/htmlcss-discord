@@ -189,8 +189,11 @@ main {
 
 .box-green {
     flex-basis: 80%;
-    background-color: green;
-    height: 600px;
+    /* background-color: green; */
+    /* height: 600px; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
 
 }
 
@@ -207,15 +210,17 @@ footer {
 
 .social {
     flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
     /* background-color: rgb(243, 88, 114); */
-    height: 550px; 
+    /* height: 550px;  */
     margin: 0;
 }
 
 .infobox {
     flex-basis: calc(55% / 4);
-    background-color: cyan ;
-    height: 550px; 
+    /* background-color: cyan ; */
+    /* height: 550px;  */
     margin: 0;
 }
 
@@ -227,12 +232,9 @@ footer {
     align-items: center;
 }
 
-.img-logo {
-    /* align-items: flex-start; */
-}
 
 .img-logo, .button {
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .button {
@@ -241,15 +243,15 @@ footer {
 
 .foot-top {
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
     display: flex;
-    align-items: center; 
+    align-items: flex-start; 
     justify-content: center;
-    min-height: 500px;
+    /* min-height: 500px; */
 }
 
 #bottom-white {
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     margin: auto;
     width: 80%;
@@ -258,17 +260,25 @@ footer {
     justify-content: space-between;
 }
 
+#stars {
+    width: 50%;
+    margin: auto;
+}
+
 /* Contenuto sezione social */
 
 .text-white {
     color: white;
+    padding-top: 10px;
 
 }
 
 .social>h3 {
     font-size: 40px;
-    font-weight: bolder;
+    font-weight: 900;
     color: violet;
+    margin:0;
+    flex-basis: 15%;
 }
 
 #italiano {
@@ -284,19 +294,43 @@ footer {
 .icons {
     color: white;
     display: flex;
+    padding-top: 30px;
+    font-size: 25px;
 }
 
 i {
-    flex-basis: 10%;
-    padding-top: 30px;
+    flex-basis: 13%;
+    
 }
+
+/* Contenuto sezioni Prodotto, Compagnia, Risorse, Norme */
 
 .infobox {
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bolder;
 }
 
 .violet {
     color: violet;
+}
+
+.img-logo {
+    /* align-items: flex-start; */
+    font-size: 30px;
+    font-weight: 900;
+    display:flex;
+    align-items: center;
+    color: white;
+}
+
+#discord-logo-bottom {
+    flex-basis: 13%;
+
+}
+
+.back-lightblue {
+    background-color: rgb(139, 139, 212);
+    color: white;
 }
