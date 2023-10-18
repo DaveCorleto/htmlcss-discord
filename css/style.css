@@ -60,19 +60,19 @@ nav {
     vertical-align: middle;
 }
 
-nav div {
+/* nav div {
     border: 2px dashed black;
-}
+} */
 
 
 /* Stile dei bordi (condivisa tra tutti i box interni del doc) */
-.prima-box, nav div, .box, .box-green, .social, .img-logo, .button {
+/* .prima-box, nav div, .box, .box-green, .social, .img-logo, .button {
     border: 2px dashed black;
-}
+} */
 
-.infobox {
+/* .infobox {
     border: 2px dashed white;
-}
+} */
 
 .header-bottom {
     display: flex;
