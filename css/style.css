@@ -1,5 +1,6 @@
 :root {
     font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
 }
 
 body {
@@ -91,11 +92,21 @@ nav {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 40px;
+    
 }
 
 h1, .text-white {
     color: white;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+p, .text-white {
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .rounded-button {
@@ -165,8 +176,8 @@ main {
 }
 .text-black {
     color: black;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 38px;
+    font-weight: 900;
     /* padding-left: 40%; */
     margin: 0;
 
@@ -188,20 +199,22 @@ main {
 }
 
 .box-green {
-    flex-basis: 80%;
     /* background-color: green; */
     /* height: 600px; */
-    display: flex;
+    /* display: flex; */
     text-align: center;
     flex-direction: column;
 
+}
+.scarica {
+    flex-basis: 18%;
 }
 
 /* Stili del footer  */
 
 footer {
-    height: 700px;
-    padding-top: 25px;
+    /* height: 700px; */
+    padding-top: 65px;
 }
 
 .dark {
@@ -269,7 +282,7 @@ footer {
 
 .text-white {
     color: white;
-    padding-top: 10px;
+    padding-top: 8px;
 
 }
 
@@ -310,6 +323,7 @@ i {
     flex-direction: column;
     font-size: 18px;
     font-weight: bolder;
+    padding-top: 10px;
 }
 
 .violet {
