@@ -266,9 +266,9 @@ footer {
 }
 
 .social>h3 {
-    color: violet;
     font-size: 40px;
     font-weight: bolder;
+    color: violet;
 }
 
 #italiano {
@@ -289,4 +289,14 @@ footer {
 i {
     flex-basis: 10%;
     padding-top: 30px;
+}
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.violet {
+    color: violet;
 }
